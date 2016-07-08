@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="za.co.spark_sme_services.www.helloeveryone">
+    <uses-sdk android:targetSdkVersion="23" />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <supports-screens android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"/>
+<application>
+    <activity android:name="za.co.spark_sme_services.www.helloeveryone.DisplayMessageActivity"
+        android:label="@string/title_activity_display_message"
+        android:parentActivityName="za.co.spark_sme_services.www.helloeveryone.MyActivity">
+        <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="za.co.spark_sme_services.www.helloeveryone.MyActivity" />
+    </activity>
+</application>
+</manifest>
